@@ -1,0 +1,85 @@
+.header{
+    line-height: 44px;
+    font-size: 28px;
+    padding-top: 90px;
+}
+.bgpur{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    padding: 70px;
+}
+.bggre{
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    padding: 70px;
+}
+.conten {
+    position: relative;
+    width: 50%;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+  }
+  .conten:hover .overlay. text {
+   opacity: 1;
+  }
+  .text {
+    position: absolute;
+    transform: translate(0,15%);
+    text-align: center;
+  }
+  .what{
+    line-height:30px;
+    font-size: 20px;
+}
+.tint {
+  position: relative;
+  margin-right:0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+  text-align: center;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(251, 251, 252, 0.692) ;
+  transition: all .3s linear;
+}
+.tint:hover:before { 
+  background:rgba(0, 0, 0, 0.801); 
+  color: white;
+}
+.button{
+padding-left: 35%;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.801);
+  color: white;
+  text-align: center;
+  text-size-adjust:3px;
+        }
+        hr.new1 {
+          border-top: thin solid white;
+          width: 4cm;
+              }

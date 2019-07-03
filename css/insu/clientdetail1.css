@@ -1,0 +1,14 @@
+.black{
+    background-color: black;
+}
+.in{
+    height: 12%;
+    width: 25%;
+}
+.white{
+    color: white;
+}
+a.white{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;  
+    color: green;
+}
+.black{
+    color: black;
+    font-family: sans-serif
+}
+.black:hover{
+    text-decoration: underline;
+    color: green;
+}
+.a{
+    color: white;
+    cursor: pointer;
+}
+.a:hover{
+    text-decoration: none;  
+    color: green;
+}

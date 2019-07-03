@@ -1,0 +1,22 @@
+.black{
+    background-color: black;
+}
+.in{
+    height: 12%;
+    width: 25%;
+}
+.white{
+    color: white;
+}
+a.white{
+    color: white;
+    text-decoration: none;
+}
+.bg{
+    background-color: rgba(0, 200, 0,0.2)
+
+}
+.how{
+    background-color: white;
+}
+

@@ -1,0 +1,28 @@
+.first{
+    background-image: url("../images/cream.jpg");
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    }
+    .cont{
+        color: black;
+    }
+       .cont:hover { 
+        background-color: black;
+        padding: 5px;
+        color: white;
+      }
+      .how{
+      color: green;
+       
+      }
+      .how:hover{
+          text-decoration: underline;
+         background-color: white;
+         color: green;
+      }
+           .but:hover{
+             background-color: #fff;
+          color: green;
+          border: 1px solid green;
+      }

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" type="text/css" href="style.css" />
+                <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="/home/prasanna/Documents/asset/css/insu/clientdetail1.css">
+              
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+  <section class="pl-2">
+    <div class="black">
+      <img class="in" src="/home/prasanna/Documents/insuchamp design/Assets/Asset 1@2x.png">
+      <a class="float-right pt-2" href="#"><i class="fas fa-tools fa-2x"></i></a>
+      <a class="float-right pt-2" href="#"><i class="fas fa-home fa-2x pr-3"></i></a>
+      <a class="float-right pt-2" href="#"><i class="fas fa-bell fa-2x pr-3"></i></a>
+  
+    </div>
+    </section>
+    <!-- /heading -->
+    <!-- profile photo -->
+    <div class="container-fluid pt-3">
+    <div class="row">
+    <div class="col-md-2">
+    <h2>NEW CLIENT</h2>
+    <figure>
+        <i class="far fa-image fa-5x pl-5"></i>
+    <figcaption class="pl-4">PROFILE PICTURE</figcaption>
+    </figure>
+    </div>
+    <div class="col-md-9 pt-3">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="inputCity">First Name</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="middle name">Middle Name</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="Surname">Surname</label>
+            <input type="text" class="form-control" id="surname">
+        </div>
+    </div>
+    <div class="form-row pt-3">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Email ID</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="middle name">Phone Number</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+    </div>
+    <div class="form-row pt-3">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Ocupation</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="middle name">Current Policy Provided(optional)</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+    </div>
+<!-- modal for address -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
+    Address<i class="fas fa-plus pl-5 ml-5"></i>
+  </button>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Address</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div><br>
+<!-- /Address -->
+<!-- spouse name -->
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenterspouce">
+        Spouce Name <i class="fas fa-plus pl-5"></i>
+      </button>
+        <div class="modal fade" id="exampleModalCenterspouce" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Spose Name</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="row">
+                              <div class="col">
+                                <input type="text" class="form-control">
+                              </div>
+                              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div><br>
+      <!-- /spouse name -->
+      <!-- dependents -->
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenterdepend">
+            dependents <i class="fas fa-plus pl-5 ml-3 "></i>
+          </button>
+            <div class="modal fade" id="exampleModalCenterdepend" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+             <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Dependents</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                                <div class="row">
+                                  <div class="col">
+                                    <input type="text" class="form-control">
+                                  </div>
+                                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div><br>
+          <!-- /dependents -->
+          <!-- description -->
+          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenterdesc">
+            Description<i class="fas fa-plus pl-5 ml-4 float-right"></i>
+              </button>
+                <div class="modal fade" id="exampleModalCenterdesc" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                 <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Description</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+                </div><br>
+              <!-- /description -->
+        <div class="pt-3 text-center">
+            <button type="button" class="btn btn-light"><i class="fas fa-link pr-2"></i>Attach Policy</button>
+            <button type="button" class="btn btn-light"><i class="fas fa-thumbtack pr-2"></i></i>Attach lead</button>
+        </div>
+        <div class="pt-4 text-center">
+        <button type="button" class="btn btn-success px-4">Next</button>
+    </div>
+
+        <script src="./../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="./../js/popper.min.js"></script>
+        <script src="./../js/bootstrap.min.js"></script>
+    
+      </body>
+      </html> 

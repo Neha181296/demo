@@ -1,0 +1,122 @@
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    z-index: 10;
+    font-size: 25px;
+    word-spacing: 2px;
+  }
+.box{
+    position:absolute;
+    top:17%;
+    z-index: 1; 
+}
+.centered1 {
+    position: absolute;
+    top: 30%;
+    text-shadow: 2px 1px black
+ }
+ .a{
+     text-align: center;
+ }
+ .button{
+     padding:12px 35px;
+     text-align: center;
+     color:white;
+     background-color:lime;
+     align-items: center;
+     border-radius: 30%;
+     margin-left:43% 
+ }
+ a:hover {
+    color: greenyellow;
+  }
+ .hr{
+   
+    padding-bottom: 15px;
+   
+ }
+ .about{
+     padding-top: 10px;
+ }
+.spacing{
+letter-spacing: 1px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+  }
+  .box1 {
+    transition:.1s;
+    background: #fff;
+   }
+  .box1:hover {
+    box-shadow:0px 8px 16px 0px rgba(0,0, 0, 0.2); 
+  }
+  .imgrr{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    box-shadow:0px 8px 16px 0px rgba(0,0, 0, 0.2);
+  }
+  .box2:hover {
+    box-shadow:0px 8px 16px 0px rgba(0,0, 0, 0.2); 
+  }
+  .imggr{
+    height: 500px;
+      }
+  .centered3 {
+    padding-left: 50%;
+    padding-top:10%;
+    text-shadow: 1px 1px gray
+  }
+  .des {
+    padding-left: 40%;
+ }
+ .des1 {
+  padding-left: 35%;
+  text-shadow: 1px 1px black
+  }
+.height{
+  height: 100%;
+}
+.card-image {
+  background-size: 100% 100%;
+         }
+.card > .tint {
+  color: gray; 
+} 
+.card >.tint:hover{
+  box-shadow:0px 8px 16px 0px rgba(0,0, 0, 0.2); 
+}
+.bottom{
+ 
+  padding-top: 40%;
+}
+.imgc{
+  height: 30%;
+  width: 30% ;
+}
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(1,2,3,.7) ;
+  transition: all .3s linear;
+}
+.tint:hover:before { background: none; }

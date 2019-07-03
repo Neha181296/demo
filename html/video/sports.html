@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="/home/prasanna/Documents/prasanna/asset/css/bootstrap.min.css">
+                <link rel="stylesheet" type="text/css" href="/home/prasanna/Documents/prasanna/asset/css/style.css" />
+                <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="/home/prasanna/Documents/prasanna/asset/css/video/playlist.css">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand pl-5" href="/home/prasanna/Documents/prasanna/asset/html/video/player.html">P-P-Player</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-5 pl-5">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle btn btn-secondary text-white" href="#" id="navbarDropdown" type="button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/trending.html">Trending</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/popular.html">Popular</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/newvideo.html">New Videos</a>
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown pl-2">
+                        <a class="nav-link dropdown-toggle btn btn-secondary text-white" href="#" id="navbarDropdown" type="button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filter
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/music.html">Music</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/movies.html">Movies</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/animated.html">Animated</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/short.html">Short</a>
+                        <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/sports.html">Sport</a>
+                        </div>
+                    </li>
+                    </ul>
+                    <form class="form-inline mx-auto">
+                        <div class="input-group" >
+                            <input type="search" class="form-control">
+                            <div class="input-group-prepend">
+                            <button class="btn btn-outline-success my-2 my-sm-0 border-0" type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                        </form> 
+                <ul class="navbar-nav pr-5">
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-user fa-2x"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/signup.html">Signup</a>
+                            <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/login.html">Log-in</a>
+                            <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/settings.html">Setting</a>
+                            <a class="dropdown-item" href="/home/prasanna/Documents/prasanna/asset/html/video/login.html">Log-out</a>
+                        </div>
+                        </li>
+                </div>  
+            </nav>
+            
+<!-- /nav -->
+<h3 class="py-3 px-3 bg-info">Movies</h3>
+<div class="container-fluid pt-5">
+    <div class="row no-gutters">
+    <div class="col-md-2 text-center">
+        <a href="#" type="button" class="px-1 btn btn-primary" >live Channel<i class="far fa-hand-point-right pl-4"></i></a>
+        <div class="pt-3"></div>
+        <a href="/home/prasanna/Documents/prasanna/asset/html/video/popular.html" type="button" class="px-3 btn btn-primary">Popular<i class="far fa-hand-point-right pl-4"></i></a>
+        <div class="pt-3"></div>
+        <a href="/home/prasanna/Documents/prasanna/asset/html/video/music.html" type="button" class="px-4 btn btn-primary">Music<i class="far fa-hand-point-right pl-4"></i></a>
+        <div class="pt-3"></div>
+        <a href="/home/prasanna/Documents/prasanna/asset/html/video/movies.html" type="button" class="px-4 btn btn-primary">Movies<i class="far fa-hand-point-right pl-3"></i></a>
+        <div class="pt-3 text-center"></div>
+        <a href="/home/prasanna/Documents/prasanna/asset/html/video/sports.html" type="button" class="px-4 btn btn-primary"> Sports<i class="far fa-hand-point-right pl-3"></i></a>
+    </div>
+ <div class="col-md-10">
+     <div class="row no-gutters">
+        <div class="col-md-3">
+            <ul style="list-style-type:none">
+            <li><div class="card">
+                <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+            <div class="card-body">
+                <h5 class="card-title">Video Name</h5>
+                <p class="card-text">Video details</p>
+            </div>
+            </div>
+            </li>
+            </ul>
+        </div>
+            <div class="col-md-3">
+            <ul style="list-style-type:none">
+            <li><div class="card">
+            <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+            <div class="card-body">
+                <h5 class="card-title">Video Name</h5>
+                <p class="card-text">Video details</p>
+            </div>
+            </div></li>
+        </ul>
+         </div>
+         <div class="col-md-3">
+                <ul style="list-style-type:none">
+                <li><div class="card">
+                <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+                <div class="card-body">
+                    <h5 class="card-title">Video Name</h5>
+                    <p class="card-text">Video details</p>
+                </div>
+                </div></li>
+            </ul>
+             </div>
+             <div class="col-md-3">
+                    <ul style="list-style-type:none">
+                    <li><div class="card">
+                    <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+                    <div class="card-body">
+                        <h5 class="card-title">Video Name</h5>
+                        <p class="card-text">Video details</p>
+                    </div>
+                    </div></li>
+                </ul>
+                 </div>
+     </div>
+     <hr>
+     <div class="row no-gutters">
+     <div class="col-md-3">
+            <ul style="list-style-type:none">
+            <li><div class="card">
+            <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+            <div class="card-body">
+                <h5 class="card-title">Video Name</h5>
+                <p class="card-text">Video details</p>
+            </div>
+            </div></li>
+        </ul>
+         </div>
+         <div class="col-md-3">
+                <ul style="list-style-type:none">
+                <li><div class="card">
+                <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+                <div class="card-body">
+                    <h5 class="card-title">Video Name</h5>
+                    <p class="card-text">Video details</p>
+                </div>
+                </div></li>
+            </ul>
+             </div>
+             <div class="col-md-3">
+                    <ul style="list-style-type:none">
+                    <li><div class="card">
+                    <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+                    <div class="card-body">
+                        <h5 class="card-title">Video Name</h5>
+                        <p class="card-text">Video details</p>
+                    </div>
+                    </div></li>
+                </ul>
+                 </div>
+                 <div class="col-md-3">
+                        <ul style="list-style-type:none">
+                        <li><div class="card">
+                        <video class="embed-responsive embed-responsive-16by9" src="/home/prasanna/Documents/prasanna/asset/videos/Waves_at_sunet_HD_slow_motion.mp4" controls></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Video Name</h5>
+                            <p class="card-text">Video details</p>
+                        </div>
+                        </div></li>
+                    </ul>
+                     </div> 
+
+        </div>
+</div>
+</div>
+    </div>   
+  <!-- footer -->
+  <div class="pt-3"></div>
+  <div class="bg-dark text-white pt-5 pl-5">
+    <div class="row">
+      <div class="col-md-9">
+    <h3 class="d-inline" id="my-popover"><i class="far fa-hand-point-right pr-2"></i>contact us</a></h3>
+<!-- Button trigger modal -->
+<div  data-toggle="modal" data-target="#exampleModalCenter">
+<h3 class="a"><i class="far fa-hand-point-right pr-2"></i>Feedback</h3>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title text-dark" id="exampleModalLongTitle">Feedback</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary">Submit</button>
+</div>
+</div>
+</div>
+</div>
+    <h3><a href="#"><i class="far fa-hand-point-right pr-2"></i>Help</a></h3>
+  </div>
+  <div class="col-md-3 pt-5 mt-5">
+    <ul class="list-inline fa-pull-right">
+      <li class="list-inline-item"> <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+        <li class="list-inline-item"><a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a></li>
+          <li class="list-inline-item pr-3"><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+  </ul>
+</div>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+<script src="/home/prasanna/Documents/prasanna/asset/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/home/prasanna/Documents/prasanna/asset/js/popper.min.js"></script>
+<script src="/home/prasanna/Documents/prasanna/asset/js/bootstrap.min.js"></script>
+<script>
+$(function() {
+$('#my-popover').popover({
+content: 'Temple Tree Tech, Somwar Peth Belgaum.'
+})
+});
+</script>
+</body>
+</html> 

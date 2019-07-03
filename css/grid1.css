@@ -1,0 +1,53 @@
+.first{
+    background-image: url("../images/cream.jpg");
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    }
+.read{
+color: green;
+
+}
+.read:hover{
+text-decoration: underline;
+background-color: white;
+color: green;
+}
+.head{
+color: black;
+    
+}
+.head:hover{
+    color: green;
+}
+.coments{
+    color: black;
+}
+.coments:hover{
+    color: black;
+}
+.but:hover{
+    background-color: #fff;
+ color: green;
+ border: 1px solid green;
+}
+.but1 {
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .but1:hover{
+      color: green;
+      border: 1px solid green;
+      text-decoration: none;
+  }
+  .footer {
+    position: relative;;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(13, 14, 14, 0.9);
+    color: white;
+    text-align: center;
+    text-size-adjust:3px;
+          }

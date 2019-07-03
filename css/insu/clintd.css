@@ -1,0 +1,16 @@
+.black{
+    background-color: black;
+}
+.in{
+    height: 12%;
+    width: 25%;
+}
+.placeholder-right:-moz-placeholder{
+    text-align:right;
+}
+.placeholder-right:-webkit-input-placeholder{
+    text-align:right;
+}
+.placeholder-right::placeholder{
+    text-align:right;
+}

@@ -1,0 +1,10 @@
+.none{
+    list-style-type:none; 
+}
+.green{
+    color: black;
+}
+.green:hover{
+    color: green;
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.bg{
+    background-color: rgba(247, 239, 239, 0.815)
+}
+.alex{
+    background-color: white;
+    padding: 30px;
+    }
+.gwb{
+    height: 370px;
+    width: 350px;
+    
+}
+.gwb:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+.anno{
+    color: black;
+}
+.anno:hover{
+    color: green;
+    text-decoration: none;
+}

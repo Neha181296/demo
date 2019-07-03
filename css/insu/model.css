@@ -1,0 +1,15 @@
+.how{
+    color: green;
+}
+.how:hover{
+    color: green;
+}
+.placeholder-center:-moz-placeholder{
+    text-align:center;
+}
+.placeholder-center:-webkit-input-placeholder{
+    text-align:center;
+}
+.placeholder-center::placeholder{
+    text-align:center;
+}
